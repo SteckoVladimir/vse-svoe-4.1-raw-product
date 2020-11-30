@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+	font-family: 'Open Sans', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	max-width: 980px;
+	margin: auto;
+	min-width: 320px;
+}
+
+header{
+	padding: 0px;
+	margin: 0;
+}
+header#home{
+	background-image: url(../image/background/header-wrapper.jpg);
+}
+
+h1.header-vse-svoe{
+	color: coral;
+	font-size: 3.5rem;
+	word-spacing: 2rem;
+	text-align: center;
+	padding-top: 0.3rem;
+}
+
+header .header-tel-phone-number a{
+	text-decoration: none;
+	color:coral;
+	font-weight: bolder;
+	font-size: 1.5rem;
+}
+header .header-tel-phone-number a:hover{
+	color: white;
+	transition-duration: 0.4s;
+}
+
+header .header-nav-body .logo{
+	text-align: center;
+	padding: 1rem 0;
+}
+
+header .header-nav-body .menu-items a{
+	display: inline-block;
+	text-decoration: none;
+	color: coral;
+	font-size: 1.5rem;
+	border: 2px solid coral;
+	border-radius: 0.8rem;
+	padding: 0 1.5rem;
+}
+header .header-nav-body .menu-items a:hover{
+	color: white;
+	border: 2px solid white;
+	transition-duration: 0.4s;
+}
+
+main div.main-container-acquaintance-body{
+	background-color: white;
+	padding: 1rem;
+	}
+
+main h2.main-container-acquaintance-body-logo{
+	font-size: 2rem;
+	padding-bottom: 0.3rem;
+}
+
+main h3.main-container-acquaintance-heading{
+	font-size: 1.5rem;
+}
+
+main .main-container-acquaintance-body .main-text-container span{
+	border: 2px dashed  coral;
+	color: coral;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	margin: 0.2rem 1rem 0.2rem 0;
+	padding: 0 0.5rem;
+	border-radius: 0.9rem;
+	border-width: 0.18rem;
+}
+
+main a.main-container-acquaintance-p-delivery{
+	text-decoration: none;
+	color:coral;
+	font-weight: bold;
+}
+main a.main-container-acquaintance-p-delivery:hover{
+	color: brown;
+	text-decoration: underline;
+	text-decoration-color: black;
+	
+}
+
+main .main-container-acquaintance-body .main-text-container p{
+	padding: 0.6rem;
+	width: 50%;
+}
+main .main-container-acquaintance .main-container-acquaintance-tel-phone-number a{
+	text-decoration: none;
+	color:coral;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	padding: 0 0 1rem 0.4rem;
+}
+main .main-container-acquaintance .main-container-acquaintance-tel-phone-number a:hover{
+	color: black;
+	transition-duration: 0.4s;
+}
+
+main .main-container-acquaintance .main-container-acquaintance-price a{
+	text-decoration: none;
+	color:coral;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	padding: 0 0 1rem 0.4rem;
+}
+main .main-container-acquaintance .main-container-acquaintance-price a:hover{
+color: black;
+transition-duration: 0.4s;
+}
